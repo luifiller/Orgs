@@ -2,7 +2,6 @@ package com.example.orgs
 
 import android.app.Activity
 import android.os.Bundle
-import android.view.View
 import android.widget.Toast
 
 class MainActivity : Activity() {
@@ -11,9 +10,7 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
         Toast.makeText(this, "Bem vindo(a) ao Orgs!", Toast.LENGTH_SHORT).show()
 
-        val view = View(this)
-
-        setContentView(view)
+        setContentView(R.layout.activity_main)
     }
 
 }
